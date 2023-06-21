@@ -47,3 +47,8 @@ images, labels = next(dataiter)
 imshow(torchvision.utils.make_grid(images))
 # print labels
 print(' '.join('%5s' % classes[labels[j]] for j in range(4)))
+
+
+#在运行这段代码时遇到了 python核心宕机 的问题。
+#现已通过 只留conda环境 解决。
+#原因判断为 pip和conda资源包冲突。
