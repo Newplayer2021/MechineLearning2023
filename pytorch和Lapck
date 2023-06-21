@@ -4,4 +4,4 @@ torch.inverse(A)
 
 #遇到了 lapack library not found in compilation 的问题。
 #已解决
-#可能是安装包不完整或不规范
+#可能是安装包不完整或不规范。
